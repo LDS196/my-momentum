@@ -78,9 +78,9 @@ const greetingText = `Good ${timeOfDay}`;
       bgNum = `${randomNum}`.padStart(2, '0')
    } else bgNum = randomNum;    
    const img = new Image();
-  img.src = `https://raw.githubusercontent.com/LDS196/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
+  img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
   img.addEventListener('load', () => {
-   body.style.backgroundImage = `url('https://raw.githubusercontent.com/LDS196/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg')`;
+   body.style.backgroundImage = `url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg')`;
  });
  }
  setBg();
